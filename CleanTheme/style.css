@@ -1,0 +1,126 @@
+/*
+Theme Name: Просто чистая тема
+Theme URI: http://webarium.ru
+Author: OXPEHETb
+Author URI: http://webarium.ru
+Description: Чистая тема
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: 
+*/
+
+.clear-fix, .clear {
+	clear: both;
+}
+
+.container {
+	width: 1170px;
+	margin: 0px auto;
+	position: relative;
+}
+
+.container img {
+	max-width: 100%;
+}
+
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+strong, b {
+	font-weight: 700;
+}
+
+i, em {
+	font-style: italic;
+}
+
+.none {
+	display: none;
+}
+
+.blackkkk {
+	background: rgba(0,0,0,0.65);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 10000;
+	display: none;
+}
+
+
+.Form {
+	position: fixed;
+	z-index: 10001;
+	background: #fff;
+	padding: 20px;
+	text-align: center;
+	top: 0;
+	left: 50%;
+	margin: 40px 0px 0px -290px;
+	width: 550px;
+	display: none;
+}
+
+.close {
+	position: absolute;
+	width: 28px;
+	height: 28px;
+	text-decoration: none;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	border: 2px solid #000;
+	-webkit-transition: background 0.2s linear;
+	-moz-transition: background 0.2s linear;
+	-o-transition: background 0.2s linear;
+	transition: background 0.2s linear;
+	z-index: 99999;
+	background: #fff;
+	cursor: pointer;
+}
+
+
+.close:after {
+	display: block;
+	font-size: 28px;
+	font-family: Arial, 'Helvetica CY', 'Nimbus Sans L', sans-serif !important;
+	content: "×";
+	line-height: 28px;
+	cursor: pointer;
+	text-decoration: none;
+	color: #000;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+	margin: 0px 0px 0px 0px;
+}
+
+
+@media (max-width: 1200px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.container {
+		width: 962px;
+	}
+}
+
+@media (max-width: 991px) {
+	.container {
+		width: 738px;
+	}
+}
+
+@media (max-width: 767px) {
+	.container {
+		width: calc(100% - 20px);
+	}
+}
